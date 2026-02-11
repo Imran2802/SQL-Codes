@@ -1,0 +1,32 @@
+-- What is the percentage of unique product increase in 2021 vs. 2020? The
+-- final output contains these fields,
+-- unique_products_2020
+-- unique_products_2021
+-- percentage_chg
+
+
+
+
+
+with yearly_unique_products as (
+select
+    fiscal_year,count(distinct product_code) as unique_products
+
+	from dim_product
+	join fact_sales_monthly s
+	using (product_code)
+	where fiscal_year in (2020,2021)        
+	group by fiscal_year
+)
+
+select
+max(case when fiscal_year =2020 then unique_products end) as unique_products_2020,
+max(case when fiscal_year =2021 then unique_products end) as unique_products_2021,
+
+	round((max(case when fiscal_year =2021 then unique_products end)-
+
+   	max(case when fiscal_year =2020 then unique_products end))*100/
+
+   	max(case when fiscal_year =2020 then unique_products end),2) as percentage_chg
+from yearly_unique_products
+
