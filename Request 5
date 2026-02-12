@@ -6,7 +6,7 @@
 
 
 select
-**product\_code,product,manufacturing\_cost**
+product_code,product,manufacturing_cost
 
 from fact_manufacturing_cost m
 join dim_product p
