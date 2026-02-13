@@ -44,7 +44,7 @@ ORDER BY gross_sales_mln DESC;
 
 ## 📊 Output
 
-![Request 9 Output](Request_9_Output.png)
+![Request 9 Output](../Images/Request_9_Output.png)
 
 ---
 
