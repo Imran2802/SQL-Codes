@@ -36,7 +36,7 @@ WHERE m.manufacturing_cost = (
 
 ## 📊 Output
 
-![Request 5 Output](Request_5_Output.png)
+![Request 5 Output](../Images/Request_5_Output.png)
 
 ---
 
