@@ -47,7 +47,7 @@ ORDER BY
 
 ## 📊 Output
 
-![Request 7 Output](Request_7_Output.png)
+![Request 7 Output](../Images/Request_7_Output.png)
 
 ---
 
