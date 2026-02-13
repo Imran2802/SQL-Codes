@@ -52,7 +52,7 @@ ORDER BY division, rnk;
 
 ## 📊 Output
 
-![Request 10 Output](Request_10_Output.png)
+![Request 10 Output](../Images/Request_10_Output.png)
 
 ---
 
