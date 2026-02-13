@@ -35,7 +35,7 @@ ORDER BY
 
 ## 📊 Output
 
-![Request 8 Output](Request_8_Output.png)
+![Request 8 Output](../Images/Request_8_Output.png)
 
 ---
 
