@@ -52,7 +52,7 @@ FROM yearly_unique_products;
 
 ## 📊 Output
 
-![Output Screenshot](Request_2_Output.png)
+![Output Screenshot](../Images/Request_2_Output.png)
 
 ---
 
