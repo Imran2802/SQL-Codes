@@ -77,8 +77,7 @@ ORDER BY pct_change DESC;
 - Calculated absolute difference between 2021 and 2020.
 - Computed percentage change using:
 
-  \[
-  \frac{(2021 - 2020)}{2020} \times 100
-  \]
+  `((value_2021 - value_2020) / value_2020) * 100`
+
 
 - Sorted results in descending order of percentage change to identify the segment with the highest growth.
