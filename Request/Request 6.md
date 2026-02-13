@@ -36,7 +36,7 @@ LIMIT 5;
 
 ## 📊 Output
 
-![Request 6 Output](Request_6_Output.png)
+![Request 6 Output](../Images/Request_6_Output.png)
 
 ---
 
