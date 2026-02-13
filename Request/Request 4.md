@@ -66,7 +66,7 @@ ORDER BY pct_change DESC;
 
 ## 📊 Output
 
-![Request 4 Output](Request_4_Output.png)
+![Request 4 Output](../Images/Request_4_Output.png)
 
 ---
 
