@@ -26,7 +26,7 @@ ORDER BY product_count DESC;
 
 ## 📊 Output
 
-![Request 3 Output](Request_3_Output.png)
+![Request 3 Output](../Images/Request_3_Output.png)
 
 ---
 
