@@ -18,6 +18,6 @@ AND region = "APAC";
 
 ## 📊 Output
 
-![Output](Request_1_Output.png)
+![Output](../Images/Request_1_Output.png)
 
 
