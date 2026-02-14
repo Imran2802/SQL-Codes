@@ -62,8 +62,8 @@ FROM yearly_unique_products;
 - Applied conditional aggregation using `CASE WHEN` to pivot results into separate columns.
 - Calculated percentage change using the formula:
 
-  \[
-  \frac{(2021 - 2020)}{2020} \times 100
-  \]
+  [
+   {(2021 - 2020)}/{2020}* 100
+  ]
 
 - Used `ROUND()` to limit the percentage to 2 decimal places.
